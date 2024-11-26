@@ -16,3 +16,9 @@ pip freeze > requirements.txt
 
 Estoy en linux por lo tanto no se si ciertas dependencias falten para ejecutar en windows
 
+# Output
+Despues de instalar las dependencias al ejecutar el script el excel resultante va a estar en: `data/solucion/solucion_desafio.xlsx`
+
+```shell
+python3 main.py
+```
