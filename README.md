@@ -8,10 +8,10 @@
 
 # Dependencias
 
-Para generar el `requirements.txt` ejecuté:
+Para generar el `requirements.txt` instalé `pipreqs` y ejecuté:
 
 ```shell
-pip freeze > requirements.txt
+python3 -m pipreqs.pipreqs .
 ```
 
 Estoy en linux por lo tanto no se si ciertas dependencias falten para ejecutar en windows
